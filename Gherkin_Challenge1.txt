@@ -1,0 +1,11 @@
+Online Editor with Gherkin
+https://app.specflow.org/gherkin-editor/feature/SFSIDytHtxE0Oq06mVPtOohyR6b3alaycbKJDgXMB8vAj95Q
+
+Feature: Fix my Gherkin
+
+Given I am logged in as a customer service agent
+Given I am on the author record detail page
+Given The record is in edit mode
+Given I change the first name field to 'test1'
+When I click the Save button
+Then the record is updated

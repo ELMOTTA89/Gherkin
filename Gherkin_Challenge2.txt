@@ -1,0 +1,9 @@
+https://app.specflow.org/gherkin-editor/feature/SFSIDssCTHiJLJk-4KnfGymX1LxBkfe79Oa1HiMImIJKK__g
+
+Feature: Fix My Gherkin (Challenge 2)
+
+Given I have an author record with field firstname set to bob
+And surname with value jones
+And the author record is active
+When I click the save button
+Then the record is updated
